@@ -57,6 +57,7 @@ local function find_build_system(root)
 		["meson.build"] = "meson",
 		["package.json"] = "npm",
 		["setup.py"] = "setuptools",
+    ["Justfile"] = "just",
 	}
 	local file = vim.fs.find(vim.tbl_keys(compilers), { path = path })[1]
 	return compilers[vim.fs.basename(file)]

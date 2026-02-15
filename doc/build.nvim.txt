@@ -40,6 +40,7 @@ currently supports:
 - Ninja (`build.ninja`)
 - Setuptools (`setup.py`)
 - Zig (`build.zig`)
+- Just (Justfile)
 
 Automatically detects project root based on the presence of a file
 - Git, mercurial, svn and a few other version control systems
