@@ -35,12 +35,12 @@ Automatically detects your build system based on the first build file found,
 currently supports:
 - CMake (`CMakeLists.txt`)
 - Cargo (`Cargo.toml`)
+- Just (`Justfile`)
 - Make (`Makefile`)
 - Meson (`meson.build`)
 - Ninja (`build.ninja`)
 - Setuptools (`setup.py`)
 - Zig (`build.zig`)
-- Just (Justfile)
 
 Automatically detects project root based on the presence of a file
 - Git, mercurial, svn and a few other version control systems
